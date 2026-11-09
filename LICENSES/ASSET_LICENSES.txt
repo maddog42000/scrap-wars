@@ -1,0 +1,17 @@
+SCRAP WARS asset provenance and license notes
+
+VISUALS
+Machine shapes, arena art, UI styling, projectile visuals, and particle textures are authored procedurally in GDScript for this project. No stock images, downloaded sprite sheets, or third-party particle textures are bundled.
+
+FONT
+DejaVu Sans TTF is bundled at assets/fonts/DejaVuSans.ttf. Its copyright/license terms are included in DejaVu-Fonts-LICENSE.txt; consult that license file for the applicable use and redistribution conditions.
+
+GENERATED AUDIO
+The following original sound-effect outputs were generated specifically for SCRAP WARS through the Manus built-in sound-effects generator on 2026-11-08; no third-party audio files were intentionally imported or used as project samples:
+- assets/audio/engine_rough_loop.mp3 — looping gritty two-cylinder combat-vehicle idle/rev.
+- assets/audio/rotary_tool_loop.mp3 — looping powered rotary cutter/drill texture.
+- assets/audio/metal_impact.mp3 — metal weapon/module impact.
+- assets/audio/rocket_launch.mp3 — improvised rocket ignition and launch.
+- assets/audio/scrap_blast.mp3 — compact scrap-metal explosion.
+
+No separate composer/stock-audio license document was supplied for generated outputs. The generator service’s current output-usage, commercial-use and redistribution terms have not been independently audited as part of this prototype milestone. Confirm those terms and retain the applicable permission before commercial distribution or an app-store release. This record does not claim a broader license than has been verified.

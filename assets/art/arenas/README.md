@@ -1,0 +1,1 @@
+Optional 1280×720 backgrounds: `foundry-floor.png` and `scrap-pit.png`. Physics floor/ramp geometry remains separately defined in code. See `../../../docs/ART_ASSET_PIPELINE.md`.

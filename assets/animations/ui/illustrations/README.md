@@ -1,0 +1,1 @@
+Optional featured-machine SpriteFrames resource path is reserved at `featured-machine.tres`; the current menu illustration is wired to the static PNG slot or procedural fallback. Animated illustration attachment is not yet enabled.

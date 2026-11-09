@@ -1,0 +1,1 @@
+Optional weapon sprites: `wp-01.png` through `wp-04.png`. See `../../../../docs/ART_ASSET_PIPELINE.md` for target sizes and mount pivots.

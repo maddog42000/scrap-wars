@@ -1,0 +1,1 @@
+Optional SpriteFrames: `wp-01.tres`–`wp-04.tres`. Drill and saw visuals are mounted to their sensor nodes; the hammer animation follows its physical head.

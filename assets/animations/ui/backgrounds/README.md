@@ -1,0 +1,1 @@
+Optional animated main-menu background SpriteFrames resource: `main-menu.tres`. It takes priority over the static menu image and then the procedural fallback.

@@ -1,0 +1,1 @@
+Optional armor plate sprites: `ar-01.png`, `ar-02.png`, `ar-03.png`. See `../../../../docs/ART_ASSET_PIPELINE.md` for target sizes and body pivots.

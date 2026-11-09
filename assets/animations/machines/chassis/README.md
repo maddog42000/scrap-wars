@@ -1,0 +1,1 @@
+Optional chassis SpriteFrames resources: `ch-01.tres`, `ch-02.tres`, `ch-03.tres`. Each must include at least one non-empty animation.

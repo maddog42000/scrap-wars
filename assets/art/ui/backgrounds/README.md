@@ -1,0 +1,1 @@
+Optional 1280×720 main-menu background: `main-menu.png`. Optional SpriteFrames animation: `assets/animations/ui/backgrounds/main-menu.tres`. See `../../../../docs/ART_ASSET_PIPELINE.md`.

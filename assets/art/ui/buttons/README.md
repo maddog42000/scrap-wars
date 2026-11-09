@@ -1,0 +1,1 @@
+Optional transparent PNG button backgrounds live here. Canonical names and state variants are documented in `../../../../docs/ART_ASSET_PIPELINE.md`; missing files preserve the current native button style.

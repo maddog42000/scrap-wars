@@ -1,0 +1,64 @@
+===== physics-test (timeout 14s) =====
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+BATTLE_LOADOUT chassis=CH-01 slot=1 parts=MV-04,MV-01,WP-04 configured=true
+CAMPAIGN_OPPONENT id=1 name=Tin-Eater archetype=rammer arena=foundry boss=false ai_chassis=CH-03 parts=MV-01@L1,MV-01@L1,WP-01@L1 valid=true
+PHYSICS_TEST_BEGIN
+PHYSICS_CRANK_SAMPLE core_pos=(337.2591, 404.8491) axle_rot=0.8 axle_omega=-25.39 crank_enabled=true leg_pos=(428.1253, 510.0383) leg_contacts=0 wheel_disabled=true,false
+BATTLE_END DEFEAT | PLAYER KNOCKED OUT OF ARENA duration_s=0.0 reward_scrap=10 equipment=
+COMPONENT_DISABLED team=AI part=wheel_left
+TEST_ACTIONS_COMPLETE
+PHYSICS_METRICS displacement_px=6403.7 crank_cumulative_rotation_rad=2180.85 crank_revolutions=347.09 max_crank_leg_floor_contacts=3 rocket_count=3 enemy_disabled_components=7 battle_ended=true
+BATTLE_FX_METRICS { "impact_events": 3, "rocket_launches": 3, "explosions": 1, "component_breaks": 1, "particle_emitters_created": 18, "one_shot_audio_started": 8, "active_particle_emitters": 3, "active_one_shot_audio": 0, "all_sfx_assets_loaded": true }
+BATTLE_AUDIO_LOOPS player_engine_loaded=true player_engine_started=true player_rotary_loaded=true player_rotary_started=false enemy_engine_loaded=true player_engine_playing_at_summary=false
+EXIT_physics-test=0
+===== rotation-test (timeout 10s) =====
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+BATTLE_LOADOUT chassis=CH-01 slot=1 parts=MV-04,MV-01,WP-04,AR-02,UT-01 configured=true
+CAMPAIGN_OPPONENT id=8 name=Anvil Prime archetype=siegebreaker arena=foundry boss=true ai_chassis=CH-03 parts=MV-01@L3,MV-01@L3,WP-04@L3,AR-02@L3,AR-03@L3,UT-01@L3 valid=true
+ROTATION_ARENA_TEST player_mounts=true ai_mounts=true player_weapon_deg=90 ai_weapon_deg=270 configured_build=true
+ROTATION_ARENA_TEST_PASS result=true
+EXIT_rotation-test=0
+===== battle-controls-test (timeout 10s) =====
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+BATTLE_LOADOUT chassis=CH-01 slot=1 parts=MV-01,MV-01,WP-01 configured=true
+CAMPAIGN_OPPONENT id=1 name=Tin-Eater archetype=rammer arena=foundry boss=false ai_chassis=CH-03 parts=MV-01@L1,MV-01@L1,WP-01@L1 valid=true
+BATTLE_CONTROL_TEST slow=true fast=true normal=true pause=true resume=true
+BATTLE_LOADOUT chassis=CH-01 slot=1 parts=MV-01,MV-01,WP-01 configured=true
+CAMPAIGN_OPPONENT id=1 name=Tin-Eater archetype=rammer arena=foundry boss=false ai_chassis=CH-03 parts=MV-01@L1,MV-01@L1,WP-01@L1 valid=true
+BATTLE_CONTROL_TEST restart_restores_speed_pause_and_scene=true
+EXIT_battle-controls-test=0
+===== auto-combat-test (timeout 25s) =====
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+BATTLE_LOADOUT chassis=CH-01 slot=1 parts=MV-01,MV-01,WP-01 configured=true
+CAMPAIGN_OPPONENT id=1 name=Tin-Eater archetype=rammer arena=foundry boss=false ai_chassis=CH-03 parts=MV-01@L1,MV-01@L1,WP-01@L1 valid=true
+AUTO_COMBAT_SAMPLE t=2.0 p_pos=(488.0699, 521.2996) p_v=(122.0809, 0.001729) p_drive=1.0 p_torque=11800.0 p_core_frozen=false p_wheel_disabled=false p_wheel_frozen=false p_wheel_mass=2.0 p_wheel_pos=(438.069, 555.2994) p_wheel_v=(122.0818, -0.000001) p_wheel_rot=-1.49692940711975 p_wheel_w=4.52154636383057 p_contacts=2 p_joint_a=../PlayerMachine/ChassisBody p_joint_b=../PlayerMachine/ChassisBody/PoweredWheel_0 e_pos=(836.2684, 521.3033) e_v=(-79.06942, -0.013346) e_drive=-1.0 e_wheel_disabled=false e_wheel_frozen=false e_wheel_pos=(786.2849, 555.3001) e_wheel_rot=3.13365530967712 e_contacts=4 e_wheel_w=-2.92849969863892
+COMPONENT_DISABLED team=AI part=wheel_left
+COMPONENT_DISABLED team=player part=wheel_left
+COMPONENT_DISABLED team=player part=hammer
+AUTO_COMBAT_SAMPLE t=4.0 p_pos=(585.9838, 369.7265) p_v=(34.4711, -10.48617) p_drive=1.0 p_torque=11800.0 p_core_frozen=false p_wheel_disabled=true p_wheel_frozen=true p_wheel_mass=2.0 p_wheel_pos=(550.2258, 320.9854) p_wheel_v=(-3.114149, 0.000264) p_wheel_rot=2.75385570526123 p_wheel_w=-0.11530994623899 p_contacts=1 p_joint_a= p_joint_b= e_pos=(746.6382, 267.0031) e_v=(103.5471, -387.6896) e_drive=-1.0 e_wheel_disabled=true e_wheel_frozen=true e_wheel_pos=(688.6848, 284.258) e_wheel_rot=0.63527137041092 e_contacts=2 e_wheel_w=-0.06196030601859
+AUTO_COMBAT_SAMPLE t=6.0 p_pos=(642.4007, 360.5775) p_v=(95.27656, 246.0048) p_drive=1.0 p_torque=11800.0 p_core_frozen=false p_wheel_disabled=true p_wheel_frozen=true p_wheel_mass=2.0 p_wheel_pos=(594.1318, 324.1845) p_wheel_v=(-3.114149, 0.000264) p_wheel_rot=2.75385570526123 p_wheel_w=-0.11530994623899 p_contacts=1 p_joint_a= p_joint_b= e_pos=(825.8389, 459.5571) e_v=(-250.3975, 86.59326) e_drive=-1.0 e_wheel_disabled=true e_wheel_frozen=true e_wheel_pos=(809.684, 517.8268) e_wheel_rot=0.63527137041092 e_contacts=2 e_wheel_w=-0.06196030601859
+AUTO_COMBAT_SAMPLE t=8.0 p_pos=(267.3901, 542.0777) p_v=(166.7053, -7.076447) p_drive=1.0 p_torque=11800.0 p_core_frozen=false p_wheel_disabled=true p_wheel_frozen=true p_wheel_mass=2.0 p_wheel_pos=(293.9572, 487.7774) p_wheel_v=(-3.114149, 0.000264) p_wheel_rot=2.75385570526123 p_wheel_w=-0.11530994623899 p_contacts=1 p_joint_a= p_joint_b= e_pos=(719.5586, 415.4251) e_v=(-10.46676, 52.44599) e_drive=-1.0 e_wheel_disabled=true e_wheel_frozen=true e_wheel_pos=(779.8022, 410.2253) e_wheel_rot=0.63527137041092 e_contacts=2 e_wheel_w=-0.06196030601859
+BATTLE_END VICTORY | AI KNOCKED OUT OF ARENA duration_s=11.2 reward_scrap=0 equipment=
+AUTO_COMBAT_METRICS player_forward_px=344.7 ai_forward_px=893.0 player_pos=(277.4961, 551.675) ai_pos=(27.0174, 319.128) player_vx=4.2 ai_vx=566.9 player_wheel_omega=-0.1 ai_wheel_omega=-0.1 player_hits=20 ai_hits=28 player_damage=377.0 ai_damage=243.0 player_rockets=3 ai_rockets=3 ended=true
+AUTO_COMBAT_TEST_PASS result=true
+EXIT_auto-combat-test=0
+===== ui-smoke-test (timeout 7s) =====
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+UI_SCREEN_OK garage
+UI_SCREEN_OK inventory
+UI_SCREEN_OK campaign
+UI_SCREEN_OK preview
+UI_SCREEN_OK settings
+UI_SCREEN_OK tutorial
+UI_SCREEN_OK garage
+GARAGE_BUILD_VALID true socket_count=6 stats={ "mass": 14.0, "core": 320.0, "drive": 142.857142857143, "traction": 100.0, "damage": 9.0, "armor": 0.0, "stability": 91.2, "drive_count": 2 }
+BUILDER_TEST incompatible_rejected=true compatible_install=true rotation_saved=true restored_valid=true
+CAMPAIGN_DATA_CHECK battles=12 valid_builds=true archetypes=5 arenas=2 boss_nodes=3
+LOCKED_INVENTORY_TEST card=true unlock_hint=true
+REWARD_TEST first_clear=true scrap=43 components=["MV-02", "MV-03", "WP-02"] repeat_win=0 defeat=10 draw=15
+EXIT_ui-smoke-test=124

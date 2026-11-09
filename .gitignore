@@ -1,0 +1,13 @@
+# Godot-generated editor cache (regenerates on project import)
+.godot/
+
+# Local export/build output
+.export/
+android/build/
+*.apk
+*.aab
+export.cfg
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

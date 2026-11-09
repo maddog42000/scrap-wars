@@ -1,0 +1,1 @@
+Optional chassis sprites: `ch-01.png`, `ch-02.png`, `ch-03.png`. Their target sizes and centered physics pivot are in `../../../../docs/ART_ASSET_PIPELINE.md`.

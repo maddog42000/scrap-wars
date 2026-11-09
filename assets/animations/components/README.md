@@ -1,0 +1,1 @@
+Animated component resources belong in the matching `locomotion/`, `weapons/`, `armor/`, or `utility/` subfolder; reuse the component filename key and `.tres` extension.

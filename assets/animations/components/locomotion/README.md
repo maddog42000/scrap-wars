@@ -1,0 +1,1 @@
+Optional SpriteFrames: `mv-01.tres`–`mv-04.tres`, `crank-axle.tres`, and `crank-leg.tres`. Axle/leg must remain separate visual resources so their linked physics nodes are unchanged.

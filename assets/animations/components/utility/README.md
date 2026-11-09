@@ -1,0 +1,1 @@
+Optional SpriteFrames: `ut-01.tres` (shock absorber) and `ut-02.tres` (counterweight). Physical body and mass remain unchanged.

@@ -1,0 +1,1 @@
+Optional full-frame SpriteFrames backgrounds: `foundry-floor.tres` and `scrap-pit.tres`. The physics arena geometry remains independent.

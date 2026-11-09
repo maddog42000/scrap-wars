@@ -1,0 +1,1 @@
+Optional utility sprites: `ut-01.png` (shock absorber) and `ut-02.png` (counterweight). See `../../../../docs/ART_ASSET_PIPELINE.md`.

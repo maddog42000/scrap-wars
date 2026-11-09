@@ -1,0 +1,1 @@
+Optional locomotion sprites: `mv-01.png` through `mv-04.png`, `crank-axle.png`, and `crank-leg.png`. See `../../../../docs/ART_ASSET_PIPELINE.md` for target sizes and pivots.

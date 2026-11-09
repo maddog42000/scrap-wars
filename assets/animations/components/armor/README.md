@@ -1,0 +1,1 @@
+Optional SpriteFrames: `ar-01.tres`, `ar-02.tres`, `ar-03.tres`. Rigid-body mounts and damage remain unchanged.

@@ -1,0 +1,1 @@
+Create Godot `SpriteFrames` `.tres` resources here using the same semantic subpath as the static art key; e.g. `machines/chassis/ch-01.tres` or `components/weapons/wp-02.tres`. Paths and supported animation targets are documented in `../../docs/ART_ASSET_PIPELINE.md`.

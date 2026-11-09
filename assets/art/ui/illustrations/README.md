@@ -1,0 +1,1 @@
+Optional feature illustration: `featured-machine.png`, displayed at 320×116 logical pixels. See `../../../../docs/ART_ASSET_PIPELINE.md`.
